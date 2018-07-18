@@ -1,0 +1,1 @@
+window.onload=function(){console.log("nth +");var t=new XMLHttpRequest;t.open("get","http://127.0.0.1:8800/test?a=1",!0),t.onreadystatechange=function(){4==t.readyState&&200==t.status&&console.log(t.responseText)};t.send("appid=11111&sign=222222222")};
